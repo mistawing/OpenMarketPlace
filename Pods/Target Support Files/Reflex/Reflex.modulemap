@@ -1,0 +1,6 @@
+framework module Reflex {
+  umbrella header "Reflex-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Monreau {
+  umbrella header "Monreau-umbrella.h"
+
+  export *
+  module * { export * }
+}
