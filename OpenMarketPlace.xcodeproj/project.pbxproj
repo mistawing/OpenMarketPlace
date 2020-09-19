@@ -26,8 +26,8 @@
 		D61EB29425159D5E00230109 /* Transaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29125159D5D00230109 /* Transaction.pb.swift */; };
 		D61EB29525159D5E00230109 /* AccountService.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29225159D5E00230109 /* AccountService.pb.swift */; };
 		D61EB29925159EE600230109 /* AccountService.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29625159EE600230109 /* AccountService.grpc.swift */; };
-		D61EB29A25159EE600230109 /* AccountService.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29725159EE600230109 /* AccountService.pb.swift */; };
 		D61EB29B25159EE600230109 /* Organization.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29825159EE600230109 /* Organization.grpc.swift */; };
+		D61EB29D2515A42C00230109 /* Transaction.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29C2515A42C00230109 /* Transaction.grpc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +78,8 @@
 		D61EB29125159D5D00230109 /* Transaction.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.pb.swift; sourceTree = "<group>"; };
 		D61EB29225159D5E00230109 /* AccountService.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.pb.swift; sourceTree = "<group>"; };
 		D61EB29625159EE600230109 /* AccountService.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.grpc.swift; sourceTree = "<group>"; };
-		D61EB29725159EE600230109 /* AccountService.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.pb.swift; sourceTree = "<group>"; };
 		D61EB29825159EE600230109 /* Organization.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.grpc.swift; sourceTree = "<group>"; };
+		D61EB29C2515A42C00230109 /* Transaction.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.grpc.swift; sourceTree = "<group>"; };
 		F5E501D6163FA1954AB25D82 /* Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenMarketPlace-OpenMarketPlaceUITests/Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				D61EB29225159D5E00230109 /* AccountService.pb.swift */,
+				D61EB29C2515A42C00230109 /* Transaction.grpc.swift */,
 				D61EB29625159EE600230109 /* AccountService.grpc.swift */,
-				D61EB29725159EE600230109 /* AccountService.pb.swift */,
 				D61EB29825159EE600230109 /* Organization.grpc.swift */,
 				D61EB29025159D5D00230109 /* Organization.pb.swift */,
 				D61EB29125159D5D00230109 /* Transaction.pb.swift */,
@@ -459,9 +459,9 @@
 				D61EB28E25159C3000230109 /* AccountService.proto in Sources */,
 				D61EB29525159D5E00230109 /* AccountService.pb.swift in Sources */,
 				D61EB29925159EE600230109 /* AccountService.grpc.swift in Sources */,
+				D61EB29D2515A42C00230109 /* Transaction.grpc.swift in Sources */,
 				D61EB257251445F100230109 /* AppDelegate.swift in Sources */,
 				D61EB259251445F100230109 /* SceneDelegate.swift in Sources */,
-				D61EB29A25159EE600230109 /* AccountService.pb.swift in Sources */,
 				D61EB29B25159EE600230109 /* Organization.grpc.swift in Sources */,
 				D61EB29325159D5E00230109 /* Organization.pb.swift in Sources */,
 				D61EB28F25159C3000230109 /* Organization.proto in Sources */,
