@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,16 @@
 		D61EB263251445F300230109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D61EB261251445F300230109 /* LaunchScreen.storyboard */; };
 		D61EB26E251445F300230109 /* OpenMarketPlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB26D251445F300230109 /* OpenMarketPlaceTests.swift */; };
 		D61EB279251445F300230109 /* OpenMarketPlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB278251445F300230109 /* OpenMarketPlaceUITests.swift */; };
+		D61EB28C25159C3000230109 /* example.proto in Sources */ = {isa = PBXBuildFile; fileRef = D61EB28825159C2F00230109 /* example.proto */; };
+		D61EB28D25159C3000230109 /* Transaction.proto in Sources */ = {isa = PBXBuildFile; fileRef = D61EB28925159C2F00230109 /* Transaction.proto */; };
+		D61EB28E25159C3000230109 /* AccountService.proto in Sources */ = {isa = PBXBuildFile; fileRef = D61EB28A25159C3000230109 /* AccountService.proto */; };
+		D61EB28F25159C3000230109 /* Organization.proto in Sources */ = {isa = PBXBuildFile; fileRef = D61EB28B25159C3000230109 /* Organization.proto */; };
+		D61EB29325159D5E00230109 /* Organization.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29025159D5D00230109 /* Organization.pb.swift */; };
+		D61EB29425159D5E00230109 /* Transaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29125159D5D00230109 /* Transaction.pb.swift */; };
+		D61EB29525159D5E00230109 /* AccountService.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29225159D5E00230109 /* AccountService.pb.swift */; };
+		D61EB29925159EE600230109 /* AccountService.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29625159EE600230109 /* AccountService.grpc.swift */; };
+		D61EB29A25159EE600230109 /* AccountService.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29725159EE600230109 /* AccountService.pb.swift */; };
+		D61EB29B25159EE600230109 /* Organization.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61EB29825159EE600230109 /* Organization.grpc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +70,16 @@
 		D61EB274251445F300230109 /* OpenMarketPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMarketPlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61EB278251445F300230109 /* OpenMarketPlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMarketPlaceUITests.swift; sourceTree = "<group>"; };
 		D61EB27A251445F300230109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61EB28825159C2F00230109 /* example.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = example.proto; sourceTree = "<group>"; };
+		D61EB28925159C2F00230109 /* Transaction.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Transaction.proto; sourceTree = "<group>"; };
+		D61EB28A25159C3000230109 /* AccountService.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = AccountService.proto; sourceTree = "<group>"; };
+		D61EB28B25159C3000230109 /* Organization.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Organization.proto; sourceTree = "<group>"; };
+		D61EB29025159D5D00230109 /* Organization.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.pb.swift; sourceTree = "<group>"; };
+		D61EB29125159D5D00230109 /* Transaction.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.pb.swift; sourceTree = "<group>"; };
+		D61EB29225159D5E00230109 /* AccountService.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.pb.swift; sourceTree = "<group>"; };
+		D61EB29625159EE600230109 /* AccountService.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.grpc.swift; sourceTree = "<group>"; };
+		D61EB29725159EE600230109 /* AccountService.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.pb.swift; sourceTree = "<group>"; };
+		D61EB29825159EE600230109 /* Organization.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.grpc.swift; sourceTree = "<group>"; };
 		F5E501D6163FA1954AB25D82 /* Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenMarketPlace-OpenMarketPlaceUITests/Pods-OpenMarketPlace-OpenMarketPlaceUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +146,7 @@
 		D61EB255251445F100230109 /* OpenMarketPlace */ = {
 			isa = PBXGroup;
 			children = (
+				D61EB28625159B5200230109 /* GRPC */,
 				D61EB256251445F100230109 /* AppDelegate.swift */,
 				D61EB258251445F100230109 /* SceneDelegate.swift */,
 				D61EB25A251445F100230109 /* ViewController.swift */,
@@ -155,6 +176,31 @@
 			path = OpenMarketPlaceUITests;
 			sourceTree = "<group>";
 		};
+		D61EB28625159B5200230109 /* GRPC */ = {
+			isa = PBXGroup;
+			children = (
+				D61EB29225159D5E00230109 /* AccountService.pb.swift */,
+				D61EB29625159EE600230109 /* AccountService.grpc.swift */,
+				D61EB29725159EE600230109 /* AccountService.pb.swift */,
+				D61EB29825159EE600230109 /* Organization.grpc.swift */,
+				D61EB29025159D5D00230109 /* Organization.pb.swift */,
+				D61EB29125159D5D00230109 /* Transaction.pb.swift */,
+				D61EB28725159C1700230109 /* proto */,
+			);
+			path = GRPC;
+			sourceTree = "<group>";
+		};
+		D61EB28725159C1700230109 /* proto */ = {
+			isa = PBXGroup;
+			children = (
+				D61EB28A25159C3000230109 /* AccountService.proto */,
+				D61EB28825159C2F00230109 /* example.proto */,
+				D61EB28B25159C3000230109 /* Organization.proto */,
+				D61EB28925159C2F00230109 /* Transaction.proto */,
+			);
+			path = proto;
+			sourceTree = "<group>";
+		};
 		E3A4301ED8EA7B7F4248B54C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +211,6 @@
 				002CC30FFE52356CE79A9003 /* Pods-OpenMarketPlaceTests.debug.xcconfig */,
 				32515828AE62A742844DD129 /* Pods-OpenMarketPlaceTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,8 +454,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D61EB25B251445F100230109 /* ViewController.swift in Sources */,
+				D61EB29425159D5E00230109 /* Transaction.pb.swift in Sources */,
+				D61EB28D25159C3000230109 /* Transaction.proto in Sources */,
+				D61EB28E25159C3000230109 /* AccountService.proto in Sources */,
+				D61EB29525159D5E00230109 /* AccountService.pb.swift in Sources */,
+				D61EB29925159EE600230109 /* AccountService.grpc.swift in Sources */,
 				D61EB257251445F100230109 /* AppDelegate.swift in Sources */,
 				D61EB259251445F100230109 /* SceneDelegate.swift in Sources */,
+				D61EB29A25159EE600230109 /* AccountService.pb.swift in Sources */,
+				D61EB29B25159EE600230109 /* Organization.grpc.swift in Sources */,
+				D61EB29325159D5E00230109 /* Organization.pb.swift in Sources */,
+				D61EB28F25159C3000230109 /* Organization.proto in Sources */,
+				D61EB28C25159C3000230109 /* example.proto in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
